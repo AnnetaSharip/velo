@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body class="root">
+  <section class="menu">
+    <ul class="menu__left">
+      <li><a class="menu__link" href="#">Главная</a></li>
+      <li><a class="menu__link" href="#">Все маршруты</a></li>
+      <li><a class="menu__link" href="#">Новости</a></li>
+    </ul>
+
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Главная</a></li>
+        <li><a class="menu__item" href="#">Все маршруты</a></li>
+        <li><a class="menu__item" href="#">Новости</a></li>
+      </ul>
+    </div>
+    <div class="menu__rhight">
+      <img class="menu__search" src="./img/search.svg" alt="search">
+      <a class="menu__link" href="#">ENG</a>
+    </div>
+  </section>
+
+  <section class="description">
+    <h1 class="description__name">Велопрогулки по культурной столице</h1>
+    <div class="weather">
+      <p class="weather__description">Прогноз погоды</p>
+      <ul class="weather__list">
+        <li class="weather__link">Сегодня +18..+24°C <img class="weather__img" src="./img/weather.svg" alt="cloud"></li>
+        <li class="weather__link">Завтра +22..+25°C <img class="weather__img" src="./img/weather.svg" alt="cloud"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about">
+    <p class="about__promo">Лето — долгожданный сезон для жителей Петербурга. День становится длиннее, все начинают
+      больше гулять по городу и его окрестностям, открываются парки развлечений. В это время года приезжает много
+      туристов. Санкт-Петербург знаменит не только белыми ночами, но и историческим центром из-за которого сюда
+      приезжают туристы со всего мира.</p>
+    <img src="./img/Img.png" alt="собор">
+    <div class="about__description">
+      <div class="about__text">
+        <p class="about__text_top">Недорогой и экологичный вариант изучения Санкт-Петербурга летом — это велопрогулки.
+          На велосипеде можно посмотреть больше, чем пешком, а велопарковки в городе на каждом шагу. Если у вас нет
+          своего велосипеда или вы приехали из другого города, его можно арендовать.</p>
+        <p class="about__text_bottom">На нашем сайте вы найдете веломаршруты для петербуржцев, которые хотят встретить
+          закат на Неве или посетить новые и необычные места
+          и для туристов, которые хотят посмотреть основные достопримечатель-
+          ности города. Для всех маршрутов можно приобрести аудиогид.</p>
+      </div>
+      <img class="about__img" src="./img/goland.png" alt="новая голландия">
+    </div>
+  </section>
+
+  <section class="news">
+    <h3 class="news__title">Статьи и&nbspновости</h3>
+    <div class="news__card">
+      <img class="news__img" src="./img/velo.png" alt="">
+      <p class="news__description">Скидки на ремонт велосипедов и&nbspаксессуары у наших партнеров</p>
+    </div>
+    <div class="news__card">
+      <img class="news__img" src="./img/rest.png" alt="">
+      <p class="news__description">Скидки на ремонт велосипедов и&nbspаксессуары у наших партнеров</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__menu">
+      <ul class="footer__nav">
+        <li class="footer__nav_item"><a href="#">Главная</a></li>
+        <li class="footer__nav_item"><a href="#">О проекте</a></li>
+        <li class="footer__nav_item"><a href="#">Статьи и новости</a></li>
+        <li class="footer__nav_item"><a href="#">Все маршруты</a></li>
+      </ul>
+      <p class="footer__description footer__description_nav">© Велопрогулки по культурной столице, 2021</p>
+    </div>
+    <p class="footer__description">Все права защищены. Копирование
+      и&nbspраспространение аудиозаписей, текстов
+      и&nbspдругой информации запрещено.</p>
+  </footer>
+</body>
+
+</html>
